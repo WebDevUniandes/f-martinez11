@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Felipe Martinez Piazuelo</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" id="nav_inicio">Inicio</a>
+                <a class="navbar-brand" href="#"id="nav_volver" onclick="ocultarElementoAcademico(); ocultarElementoHobbie();">
+                  <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Volver</a>
+
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="nav_lista">
+                    <li>
+                        <a href="#about">Estudios</a>
+                    </li>
+                    <li>
+                        <a href="#services">Sobre mi</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image" id="encabezado">
+        <div class="headline">
+            <div class="container">
+                <h1>Felipe Martínez Piazuelo</h1>
+                <img class=" profile-pic img-circle img-responsive"
+                src="https://scontent.xx.fbcdn.net/v/t1.0-9/13707620_10209080516826162_8890919710066748713_n.jpg?oh=dae9274d11f876f052800bb856667453&oe=5941E801"
+                alt="Profile Pic">
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div>
+        <hr class="featurette-divider" id="about">
+        <div class="featurette primera-seccion" id ="estudios" >
+            <img class="img-seccion featurette-image img-circle img-responsive pull-right" src="./img/logoUniandes.png">
+            <h2 class="featurette-heading">Estudiante de Ingeniería de Sistemas
+                <span class="text-muted">en Uniandes</span>
+            </h2>
+            <p class="lead">Actualmente me encuentro cursando séptimo semestre en la Universidad de los Andes. En un principio ingrese a la carrera de ingeniería electrónica, pero decidí cambiarme a ingeniería de sistemas donde me he sentido apasionado por lo que hago.</p>
+              <h2><a onclick="mostrarElementoAcademico()" href="#">Más...</a></h2>
+        </div>
+        <hr class="featurette-divider" id="services">
+        <div class="featurette segunda-seccion" id="sobre_mi" >
+            <img class="img-seccion foto-cali featurette-image img-circle img-responsive pull-left" src="./img/cali.jpg">
+            <h2 class="featurette-heading">Un poco más
+                <span class="text-muted">sobre mi</span>
+            </h2>
+            <p class="lead">Tengo 21 años, nací en la ciudad de Santiago de Cali donde realicé todos mis estudios de bachillerato.
+              En el 2014 viaje a la ciudad de Bogotá donde inicie mis estudios universitarios.
+            </p>
+            <!--<h2><a onclick="mostrarElementoHobbie()" href="#">Más...</a></h2>                           FALTA TERMINAR-->
+        </div>
+      </div>
+      <div class="mas-academico" id ='mas_academico' >
+      <div class="container contenedor-academico" id="cont-fondo">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 id="titulo-academica">Vida Académica:</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+              <div class="box-icon">
+                <img src="img/android.png" class="iconos-acade img-circle img-responsive">
+              </div>
+              <h3>Intereses:</h3>
+              <ul>
+                <li>Desarrollo Web</li>
+                <li>Desarrollo de Aplicaciones móviles</li>
+                <li>Emprendimiento</li>
+                <li>Seguridad</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="box-icon">
+                <img src="img/exp.png" class="iconos-acade img-circle img-responsive">
+              </div>
+              <h3>Experiencia:</h3>
+              <ul>
+                <li>ItinerApp - Aplicación para planear viajes</li>
+                <li>Oilcol - Prototipo de aplicación para monitorear campos de petróleo</li>
+                <li>TeamPreneur - Aplicación móvil para la creación de grupos de emprendimiento basados en afinidad de personalidades</li>
+                <li>Experiencia en el manejo bases de datos relacionales</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="box-icon">
+                <img src="img/libros.jpg" class="iconos-acade img-circle img-responsive">
+              </div>
+              <h3>Actualmente:</h3>
+              <ul>
+                <li>Afianzando conocimientos en HTML, CSS, JavaScript</li>
+                <li>Estudiando fundamentos de minería de datos</li>
+                <li>Estudiando sobre infraestructura de comunicaciones</li>
+                <li>Estudiando modelamiento matemático de problemas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 id="contacto-titulo">Contacto:</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a class="btn btn-social-icon btn-twitter boton-social" href="https://twitter.com/Piazuelo1" target="_blank">
+              <span class="fa fa-twitter"></span>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a class="btn btn-social-icon btn-facebook boton-social" href="https://www.facebook.com/felipe.martinez.3762" target="_blank">
+              <span class="fa fa-facebook"></span>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a class="btn btn-social-icon btn-github boton-social" href="https://github.com/f-martinez11" target="_blank">
+              <span class="fa fa-github"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+
+      <!--EMPIEZA SECCION DE HOBBIES-->
+      <div class="hobbies" id="hobbies-contenedor">
+        <div class="container">
+          <div class="row">
+            <div class="col-md12">
+              <h1 id="titulo-hobbies">Hobbies:</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="row">
+                <h3>Wakeboard</h3>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <img id="wake-pic" class="img-rounded img-responsive"
+                  src="https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/10525985_10203585786621341_898269375378020404_n.jpg?oh=16c954cf71bcb1a6eaac249a89f671fa&oe=5903773C" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8"></div>
+          </div>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <!-- Footer -->
+      <footer>
+          <div class="row">
+              <div class="col-lg-12">
+                  <p>Copyright &copy; Pagina realizada con plantilla de <a href="https://startbootstrap.com/template-overviews/one-page-wonder/" target="_blank">startbootstrap.com.</a> Respetando la licencia proporcionada por la pagina.</p>
+              </div>
+          </div>
+      </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/javascript.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+/*
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('https://scontent.xx.fbcdn.net/v/t1.0-9/13700049_10209080412063543_8461344192701335878_n.jpg?oh=6eebda424528eeb07b6f8c78ec231315&oe=590DB0B2');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+.profile-pic
+{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+.headline {
+    padding: 120px 0;
+}
+
+.headline h1 {
+    color: #fff;
+    font-size: 5em;
+    background: #fff;
+    background: rgba(0,0,0,0.5);
+}
+.headline h2 {
+    color: #fff;
+    font-size: 4em;
+    background: #fff;
+    background: rgba(0,0,0,0.5);
+}
+
+.featurette-divider {
+    margin: 80px 0;
+
+}
+#titulo-academica
+{
+   color: rgb(33, 34, 35);
+   font-family: 'Montserrat', sans-serif;
+   font-size: 5em;
+   line-height: 1;
+   text-align: center;
+}
+.hobbies
+{
+  display: none;
+}
+#titulo-hobbies
+{
+   color: rgb(33, 34, 35);
+   font-family: 'Montserrat', sans-serif;
+   font-size: 5em;
+   line-height: 1;
+   text-align: center;
+}
+#contacto-titulo
+{
+  color: rgb(33, 34, 35);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  line-height: 1;
+  text-align: left;;
+}
+.boton-social
+{
+  font-size: 10em;
+  border-radius: 5em;
+}
+
+.featurette {
+    overflow: hidden;
+    opacity: 0;
+    transition: all 200ms ease-in;
+}
+.featurette-fade
+{
+  opacity: 1;
+}
+
+#nav_volver
+{
+  display: none;
+}
+#mas_academico
+{
+  display: none;
+  opacity: 1;
+}
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+.iconos-acade
+{
+  height: 7em;
+  width: 7em;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+#wake-pic
+{
+  width: 100%;
+  
+}
+.hobbies h3
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color: rgb(33, 34, 35);
+}
+.img-seccion
+{
+  height: 25em;
+  width: 25em;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}
+p
+{
+  text-align: justify;
+}
+.box{
+    border-radius: 1em;
+    box-shadow: 1em 1em 2em 0em rgba(0, 0, 0, 0.16), 0em 2em 4em 0em rgba(0, 0, 0, 0.12);
+    padding: 1em 2em;
+    display: block;
+    margin-top: 3em;
+    border: 0.1em solid rgba(0, 0, 0, 0.1);
+}
+.box li
+{
+  margin: 0 0 0.3em 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+.box h3
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+.box-icon
+{
+  margin: 0 auto;
+  vertical-align: top;
+  margin-top: -3em;
+  display: table;
+}
+.container:after
+{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
