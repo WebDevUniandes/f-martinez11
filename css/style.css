@@ -1,11 +1,6 @@
-/*
- * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    margin-top: 50px;
 }
 
 .header-image {
@@ -13,11 +8,7 @@ body {
     width: 100%;
     text-align: center;
     background: url('https://scontent.xx.fbcdn.net/v/t1.0-9/13700049_10209080412063543_8461344192701335878_n.jpg?oh=6eebda424528eeb07b6f8c78ec231315&oe=590DB0B2');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
-
 }
 .profile-pic
 {
@@ -128,7 +119,7 @@ footer {
 #wake-pic
 {
   width: 100%;
-  
+
 }
 .hobbies h3
 {
